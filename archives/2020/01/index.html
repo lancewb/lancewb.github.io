@@ -49,7 +49,7 @@
     <cover class='cover  half'>
       
         
-  <h1 class='title'>Demo</h1>
+  <h1 class='title'>Lancewb's Blog</h1>
 
 
   <div class="m_search">
@@ -109,9 +109,9 @@
 
       
     </cover>
-    <header class="l_header pure">
+    <header class="l_header material">
   <div id="loading-bar-wrapper">
-    <div id="loading-bar" class="pure"></div>
+    <div id="loading-bar" class="material"></div>
   </div>
 
 	<div class='wrapper'>
@@ -408,10 +408,10 @@
           
             
               <section class='widget author'>
-  <div class='content pure'>
+  <div class='content material'>
     
       <div class='avatar'>
-        <img class='avatar' src='https://cdn.jsdelivr.net/gh/xaoxuu/assets@master/avatar/avatar.png'/>
+        <img class='avatar' src='/./img/Pic.png'/>
       </div>
     
     
@@ -498,12 +498,12 @@
             
               <section class='widget plain'>
   
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-file fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;文本部件</div>
   
 </header>
 
-  <div class='content pure'>
+  <div class='content material'>
     <p>这是一段支持markdown的文本<br><img src="https://img.vim-cn.com/4e/3c87a2fd28fd0b9c2f27ce3f83f1e9275d0488.png" alt=""></p>
 
   </div>
@@ -558,12 +558,12 @@
             
               <section class='widget list'>
   
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-thumbs-up fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;强烈推荐</div>
   
 </header>
 
-  <div class='content pure'>
+  <div class='content material'>
     <ul class="entry">
       
         <li><a class="flat-box" title="https://xaoxuu.com/wiki/hexo.sh/" href="https://xaoxuu.com/wiki/hexo.sh/"
@@ -654,12 +654,12 @@
             
               <section class='widget grid'>
   
-<header class='pure'>
+<header class='material'>
   <div><i class="fas fa-map-signs fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;站内导航</div>
   
 </header>
 
-  <div class='content pure'>
+  <div class='content material'>
     <ul class="grid navgation">
       
         <li><a class="flat-box" title="/" href="/"
@@ -935,6 +935,14 @@
   <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
 
 
+  <!-- fastclick -->
+  <script src="https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      FastClick.attach(document.body)
+    }, false)
+  </script>
+
 
 
   
@@ -943,16 +951,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <script type="text/javascript">
       $(function(){
-        if ('.cover') {
-          $('.cover').backstretch(
-          ["https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg"],
+        if ('') {
+          $('').backstretch(
+          ["./img/Background.png"],
           {
             duration: "6000",
             fade: "2500"
           });
         } else {
           $.backstretch(
-          ["https://img.vim-cn.com/29/91197b04c13f512f734a76d4ac422d89dbe229.jpg"],
+          ["./img/Background.png"],
           {
             duration: "6000",
             fade: "2500"
